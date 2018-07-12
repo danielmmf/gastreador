@@ -59,9 +59,9 @@
             <div class="header-content mx-auto">
               <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revenderos de gás ilegal!</h1>
 
-             <a href="#" onclick = "getLocation();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a>           
+             <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a>           
               <br><br>                
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Video</a>
+              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" onclick ="getLocation();">Denunciar com Video</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
