@@ -58,7 +58,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revenderos de gás ilegal!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Fazer Denuncia!</a>
+              <a href="#" onclick = "getLocation();" class="btn btn-outline btn-xl js-scroll-trigger">Fazer Denuncia!</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
