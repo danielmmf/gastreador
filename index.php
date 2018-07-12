@@ -60,8 +60,8 @@
               <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revendedores de gás ilegal!</h1>
 
 
-             <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a> 
-             <input type="file" accept="image/*" capture="camera" id="camera">
+             <a href="#" id="camera"  accept="image/*" capture="camera" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a> 
+             
 <img id="frame" width="100px">          
               <br><br>                
               <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" >Denunciar com Video</a>
