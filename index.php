@@ -27,25 +27,25 @@
 
   </head>
 
-  <body id="page-top">
+  
     
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         
         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#download">Download</a>
             </li><li>
             </li>
               <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="#contact">Contacto</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -57,9 +57,9 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revenderos de gás ilegal!</h1>
+              <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revendedores de gás ilegal!</h1>
 
-             <a href="#" onclick = "getLocation();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a>           
+             <a href="#" onclick="getLocation();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a>           
               <br><br>                
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Video</a>
             </div>
@@ -88,9 +88,7 @@
       </div>
     </section>
 
-    <section class="features" id="features">
-      
-    </section>
+    
 
     
 
@@ -122,7 +120,7 @@
     <footer>
       <div class="container">
 
-       <h2>Feito pela VogelTech</h2> 
+      <p>Gastreador feito para o Sindigás</p> 
         
       </div>
 
@@ -146,5 +144,7 @@
 
 
 
-  </body>
+  
+
+
 </html>
