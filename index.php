@@ -63,7 +63,8 @@
              <input type="file" accept="image/*" capture="camera" id="camera">
 <img id="frame" width="100px">          
               <br><br>                
-              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" onclick ="getLocation();">Denunciar com Video</a>
+              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" onclick ="getVideo();">Denunciar com Video</a>
+              <video id="player" controls autoplay></video>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
