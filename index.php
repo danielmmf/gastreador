@@ -57,14 +57,16 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revendedores de gás ilegal!</h1>
+             <!--<a><img class="imglogo" src="http://1.bp.blogspot.com/-GymS21OLL0Y/T71FsGL6QSI/AAAAAAAACnM/d-mBM-eYXKs/s1600/PROGRAMA+G%C3%81S+LEGAL.jpg"></a>  
+              -->
+              <h2 class="mb-5 text-center">Faça Denuncias de Possiveis revendedores de gás ilegal!</h2>
+              
 
-
-             <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a> 
+             <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto </a> 
              <input type="file" accept="image/*" capture="camera" id="camera">
 <img id="frame" width="100px">          
               <br><br>                
-              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" onclick ="getLocation();">Denunciar com Video</a>
+              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" data-toggle="modal" data-target="#exampleModal">Denunciar com Video</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -129,6 +131,26 @@
 
     </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
