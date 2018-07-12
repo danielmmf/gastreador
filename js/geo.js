@@ -1,4 +1,3 @@
-alert("carregou geo");
 
 function showLocation(position) {
             var latitude = position.coords.latitude;
