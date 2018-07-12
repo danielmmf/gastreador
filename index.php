@@ -63,10 +63,11 @@
               
 
              <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto </a> 
-             <input type="file" accept="image/*" capture="camera" id="camera">
-<img id="frame" width="100px">          
+                       
               <br><br>                
               <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" data-toggle="modal" data-target="#exampleModal">Denunciar com Video</a>
+              <br><br>                
+              <!--video id="player" controls autoplay></video-->
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -142,7 +143,9 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <input type="file" accept="image/*" capture="camera" id="camera">
+<img id="frame" width="100px">
+      
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
