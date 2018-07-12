@@ -134,6 +134,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+    <script src="js/geo.js"></script>
 
   
 
