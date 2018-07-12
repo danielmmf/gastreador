@@ -118,7 +118,7 @@
 
     <footer>
       <div class="container">
-        
+       <h1>Feito pela VogelTech</h1> 
         
       </div>
     </footer><!-- Bootstrap core JavaScript -->
