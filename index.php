@@ -58,7 +58,8 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5 text-center">Faça Denuncias de Possiveis revenderos de gás ilegal!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Fazer Denuncia!</a>              
+
+             <a href="#" onclick = "getLocation();" class="btn btn-outline btn-xl js-scroll-trigger">Fazer Denuncia!</a>           
               <br><br>                
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Fazer Denuncia!</a>
             </div>
@@ -137,6 +138,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+    <script src="js/geo.js"></script>
 
   
 
