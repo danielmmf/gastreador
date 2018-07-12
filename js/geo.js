@@ -42,15 +42,13 @@ function showLocation(position) {
 
           var player = document.getElementById('player');
 
-           var handleSuccess = function(stream) {
-             player.srcObject = stream;
-           };
+  var handleSuccess = function(stream) {
+    player.srcObject = stream;
+  };
 
 
 
          function getVideo(){
-                navigator.mediaDevices.getUserMedia({video: true})
-            .then(handleSuccess).
-           .catch(error => console.error('getUserMedia() error:', error));
-
+            navigator.mediaDevices.getUserMedia({video: true})
+      .then(handleSuccess);
          }
