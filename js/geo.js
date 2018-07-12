@@ -24,3 +24,17 @@ function showLocation(position) {
                alert("Sorry, browser does not support geolocation!");
             }
          }
+
+         function pegaImg(){
+               navigator.mediaDevices.getUserMedia({video: true})
+           .then(gotMedia)
+           .catch(error => console.error('getUserMedia() error:', error));
+
+         }
+
+      
+         function gotMedia(mediaStream) {
+           const mediaStreamTrack = mediaStream.getVideoTracks()[0];
+           const imageCapture = new ImageCapture(mediaStreamTrack);
+           console.log(imageCapture);
+         }
