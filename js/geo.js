@@ -24,3 +24,26 @@ function showLocation(position) {
                alert("Sorry, browser does not support geolocation!");
             }
          }
+
+         function pegaImg(){
+               navigator.mediaDevices.getUserMedia({video: true})
+           .then(gotMedia)
+           .catch(error => console.error('getUserMedia() error:', error));
+
+         }
+
+      
+         function gotMedia(mediaStream) {
+           const mediaStreamTrack = mediaStream.getVideoTracks()[0];
+           const imageCapture = new ImageCapture(mediaStreamTrack);
+           console.log(imageCapture);
+         }
+
+         var camera = document.getElementById('camera');
+           var frame = document.getElementById('frame');
+
+           camera.addEventListener('change', function(e) {
+             var file = e.target.files[0]; 
+             // Do something with the image file.
+             frame.src = URL.createObjectURL(file);
+           });
