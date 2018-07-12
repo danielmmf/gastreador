@@ -21,7 +21,7 @@ a:hover, a:focus {
 
 hr {
   max-width: 100px;
-  margin: 35px auto 0;
+  margin: 25px auto 0;
   border-width: 10px;
   border-color: rgba(34, 34, 34, 0.1);
 }
@@ -432,6 +432,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-xl {
-  font-size: 20px;
+  font-size: 11px;
   padding: 15px 45px;
 }
