@@ -28,12 +28,13 @@
   </head>
 
   <body id="page-top">
+    
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
       <div class="container">
         
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
@@ -41,10 +42,10 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-            <li>
+            </li><li>
             </li>
               <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+              <a class="nav-link js-scroll-trigger active" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -62,9 +63,7 @@
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                
-              </div>
+              
             </div>
           </div>
         </div>
@@ -90,15 +89,7 @@
       
     </section>
 
-    <section class="cta">
-      <div class="cta-content">
-        <div class="container">
-          <h2><br></h2>
-          
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
+    
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
@@ -143,5 +134,8 @@
   
 
 
-</body>
+
+
+
+  </body>
 </html>
