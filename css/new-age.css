@@ -22,7 +22,7 @@ a:hover, a:focus {
 hr {
   max-width: 100px;
   margin: 25px auto 0;
-  border-width: 10px;
+  border-width: 15px;
   border-color: rgba(34, 34, 34, 0.1);
 }
 
@@ -380,7 +380,7 @@ footer {
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 6px;
   margin: 0;
 }
 
@@ -432,6 +432,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-xl {
-  font-size: 30px;
-  padding: 30px 60px;
+  font-size: 11px;
+  padding: 15px 45px;
 }
