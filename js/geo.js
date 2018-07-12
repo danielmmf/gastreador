@@ -50,7 +50,7 @@ function showLocation(position) {
 
          function getVideo(){
                 navigator.mediaDevices.getUserMedia({video: true})
-            .then(handleSuccess);
+            .then(handleSuccess).
            .catch(error => console.error('getUserMedia() error:', error));
 
          }
