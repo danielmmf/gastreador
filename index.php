@@ -61,7 +61,7 @@
 
              <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto</a> 
              <input type="file" accept="image/*" capture="camera" id="camera">
-<img id="frame">          
+<img id="frame" width="100px">          
               <br><br>                
               <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" onclick ="getLocation();">Denunciar com Video</a>
             </div>
