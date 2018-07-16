@@ -59,13 +59,13 @@
             <div class="header-content mx-auto">
              <!--<a><img class="imglogo" src="http://1.bp.blogspot.com/-GymS21OLL0Y/T71FsGL6QSI/AAAAAAAACnM/d-mBM-eYXKs/s1600/PROGRAMA+G%C3%81S+LEGAL.jpg"></a>  
               -->
-              <h1 sell="text-align">Faça Denuncias de possiveis revendedores de gás ilegal!</h1>
+              <h1 class="#">Faça denuncias de possiveis revendedores de gás ilegal!</h1>
               
 
-             <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto </a> 
+             <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar por Foto </a> 
                        
               <br><br>                
-              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" data-toggle="modal" data-target="#exampleModal">Denunciar com Video</a>
+              <a href="#" class="btn btn-outline btn-xl js-scroll-trigger" data-toggle="modal" data-target="#exampleModal">Denunciar por Video</a>
               <br><br>                
               <!--video id="player" controls autoplay></video-->
             </div>
@@ -126,7 +126,7 @@
     <footer>
       <div class="container">
 
-      <p>Gastreador feito para o Sindigás</p> 
+      <p>Gastreador feito para o Sindigás by CARICAJR.TECH</p> 
         
       </div>
 
