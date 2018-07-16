@@ -45,7 +45,7 @@
             </li><li>
             </li>
               <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -59,7 +59,7 @@
             <div class="header-content mx-auto">
              <!--<a><img class="imglogo" src="http://1.bp.blogspot.com/-GymS21OLL0Y/T71FsGL6QSI/AAAAAAAACnM/d-mBM-eYXKs/s1600/PROGRAMA+G%C3%81S+LEGAL.jpg"></a>  
               -->
-              <h2 class="mb-5 text-center">Faça Denuncias de Possiveis revendedores de gás ilegal!</h2>
+              <h2 class="mb-5 text-center">Faça Denuncias de possiveis revendedores de gás ilegal!</h2>
               
 
              <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto </a> 
@@ -79,7 +79,7 @@
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
+   <!-- <section class="download bg-primary text-center" id="download">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
@@ -92,7 +92,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     
 
