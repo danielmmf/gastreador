@@ -59,7 +59,7 @@
             <div class="header-content mx-auto">
              <!--<a><img class="imglogo" src="http://1.bp.blogspot.com/-GymS21OLL0Y/T71FsGL6QSI/AAAAAAAACnM/d-mBM-eYXKs/s1600/PROGRAMA+G%C3%81S+LEGAL.jpg"></a>  
               -->
-              <h1 sell>Faça Denuncias de possiveis revendedores de gás ilegal!</h1>
+              <h1 sell="text-align">Faça Denuncias de possiveis revendedores de gás ilegal!</h1>
               
 
              <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar com Foto </a> 
