@@ -79,7 +79,7 @@
       </div>
     </header>
 
-   <!-- <section class="download bg-primary text-center" id="download">
+    <section class="download bg-primary text-center" id="download">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
@@ -92,7 +92,7 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
 
     
 
