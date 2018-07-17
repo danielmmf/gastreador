@@ -59,8 +59,7 @@
             <div class="header-content mx-auto">
              <!--<a><img class="imglogo" src="http://1.bp.blogspot.com/-GymS21OLL0Y/T71FsGL6QSI/AAAAAAAACnM/d-mBM-eYXKs/s1600/PROGRAMA+G%C3%81S+LEGAL.jpg"></a>  
               -->
-              <h1 class="#">Faça denuncias de possiveis revendedores de gás ilegal!</h1>
-              
+              <h1 class="#">Faça denuncias de possiveis revendedores de gás ilegal!</h1>              
 
              <a href="#" onclick ="pegaImg();" class="btn btn-outline btn-xl js-scroll-trigger">Denunciar por Foto </a> 
                        
@@ -137,7 +136,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Coloque sua foto.</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
