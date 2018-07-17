@@ -12,7 +12,7 @@
         app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
 
             angular.extend($scope, {
-                london: {
+                sp: {
                     lat: 51.505,
                     lng: -0.09,
                     zoom: 8
@@ -39,10 +39,10 @@
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
             alert("Latitude : " + latitude + " Longitude: " + longitude);
-            $scope.london = {
+            $scope.sp = {
                     lat: latitude,
                     lng: longitude,
-                    zoom: 8
+                    zoom: 14
                 };
             $scope.markers.push({
                     lat: latitude,
@@ -77,7 +77,7 @@
     </script>
   </head>
   <body ng-controller="MarkersEventsAddController">
-      <leaflet lf-center="london" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
+      <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
       <h1>Markers with events example</h1>
       <p>Click on the map to add a marker</p>
       </leaflet>
