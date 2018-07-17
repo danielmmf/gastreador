@@ -153,7 +153,7 @@
         </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Enviar denuncia!!</button>
+        <button type="button" class="btn btn-primary" ng-click="enviar_denuncia()">Enviar denuncia!!</button>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@
     <link rel="stylesheet" href="maps/css/leaflet.css" />
     <script>
 
-   
+
 
         var app = angular.module("demoapp", ["leaflet-directive"]);
         app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
@@ -194,6 +194,11 @@
 
             $scope.markers = new Array();
 
+
+            $scope.enviar_denuncia = function(){
+              alert("vai enviar sua denuncia");
+              alert("Latitude : " + $scope.latitude + " Longitude: " + $scope.longitude);
+            }
             
 
             /*$scope.$on("leafletDirectiveMap.click", function(event, args){
@@ -210,6 +215,8 @@
         function showLocationS(position) {
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
+            $scope.latitude = position.coords.latitude;
+            $scope.longitude = position.coords.longitude;
            // alert("Latitude : " + latitude + " Longitude: " + longitude);
             $scope.sp = {
                     lat: latitude,
