@@ -24,4 +24,10 @@ class LandingCest
      $I->amOnPage('/');
     $I->see('Realize a sua denuncia!!');   
     } 
+
+    public function deveTerBotaoEnviarDenunciaTest(AcceptanceTester $I)
+    {
+     $I->amOnPage('/');
+    $I->see('Enviar denuncia!!');   
+    } 
 }
