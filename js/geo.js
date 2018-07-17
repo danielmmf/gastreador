@@ -26,6 +26,7 @@ function showLocation(position) {
          }
 
          function pegaImg(){
+          getLocation();
                navigator.mediaDevices.getUserMedia({video: true})
            .then(gotMedia)
            .catch(error => console.error('getUserMedia() error:', error));
@@ -34,6 +35,7 @@ function showLocation(position) {
 
       
          function gotMedia(mediaStream) {
+           getLocation();
            const mediaStreamTrack = mediaStream.getVideoTracks()[0];
            const imageCapture = new ImageCapture(mediaStreamTrack);
            console.log(imageCapture);
