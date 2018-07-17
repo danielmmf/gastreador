@@ -178,9 +178,7 @@
     <link rel="stylesheet" href="maps/css/leaflet.css" />
     <script>
 
-    $('#exampleModal').on('shown.bs.modal', function () {
-      getLocationS();
-    });
+   
 
         var app = angular.module("demoapp", ["leaflet-directive"]);
         app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
@@ -239,7 +237,9 @@
             }
          }
 
-         
+          $('#exampleModal').on('shown.bs.modal', function () {
+      getLocationS();
+    });
 
         } ]);
     </script>
