@@ -183,7 +183,7 @@
                 sp: {
                     lat: -23.57,
                     lng: -46.63,
-                    zoom: 16
+                    zoom: 14
                 },
                 events: {}
             });
@@ -210,7 +210,7 @@
             $scope.sp = {
                     lat: latitude,
                     lng: longitude,
-                    zoom: 16
+                    zoom: 14
                 };
             $scope.markers.push({
                     lat: latitude,
