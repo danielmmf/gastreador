@@ -21,12 +21,12 @@ class LandingCest
     public function garantindoTextoDoPrimeiroBotaoTest(AcceptanceTester $I)
     {
      $I->amOnPage('/');
-    $I->see('Denunciar com Foto');   
+    $I->see('Denunciar por Foto');   
     }
 
     public function garantindoTextoDoSegundoBotaoTest(AcceptanceTester $I)
     {
      $I->amOnPage('/');
-    $I->see('Denunciar com Video');   
+    $I->see('Denunciar por Video');   
     } 
 }
