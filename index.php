@@ -177,6 +177,12 @@
     <script src="maps/js/angular-leaflet-directive.js"></script>
     <link rel="stylesheet" href="maps/css/leaflet.css" />
     <script>
+
+    $('#exampleModal').on('shown', function(){
+      // code here
+      alert("abriu");
+    });
+
         var app = angular.module("demoapp", ["leaflet-directive"]);
         app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
 
