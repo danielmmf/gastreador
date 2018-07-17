@@ -146,7 +146,6 @@
 
           <hr>
           <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
-          <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
           <input type="file" accept="image/*" capture="camera" id="camera">
 <img id="frame" width="100px">
         </div>
