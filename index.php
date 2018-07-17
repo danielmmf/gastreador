@@ -140,17 +140,11 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-<<<<<<< HEAD
       <div class="modal-body">
           <h5>Mapa Local</h5>
           <!--<p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>-->
-=======
-      <div class="modal-body" ng-controller="MarkersEventsAddController">
-          <h5>Popover in a modal</h5>
-          <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
->>>>>>> dd5031f459fc271435b55f5a404deb9a9d8d5e60
+
           <hr>
-          <h5>Tooltips in a modal</h5>
           <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
           <input type="file" accept="image/*" capture="camera" id="camera">
