@@ -179,7 +179,7 @@
     <script>
 
     $('#exampleModal').on('shown.bs.modal', function () {
-      alert("abriu");
+      getLocationS();
     });
 
         var app = angular.module("demoapp", ["leaflet-directive"]);
@@ -239,7 +239,7 @@
             }
          }
 
-         getLocationS();
+         
 
         } ]);
     </script>
