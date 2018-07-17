@@ -183,7 +183,7 @@
                 sp: {
                     lat: -23.57,
                     lng: -46.63,
-                    zoom: 12
+                    zoom: 8
                 },
                 events: {}
             });
