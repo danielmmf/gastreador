@@ -18,15 +18,10 @@ class LandingCest
     $I->see('ilegal');   
     }
 
-    public function garantindoTextoDoPrimeiroBotaoTest(AcceptanceTester $I)
-    {
-     $I->amOnPage('/');
-    $I->see('Denunciar por Foto');   
-    }
 
-    public function garantindoTextoDoSegundoBotaoTest(AcceptanceTester $I)
+    public function garantindoBotaoUnicoTest(AcceptanceTester $I)
     {
      $I->amOnPage('/');
-    $I->see('Denunciar por Video');   
+    $I->see('Realize a sua denuncia!!');   
     } 
 }
