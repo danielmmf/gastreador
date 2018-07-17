@@ -1,5 +1,5 @@
 
-function showLocation(position) {
+        function showLocation(position) {
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
             alert("Latitude : " + latitude + " Longitude: " + longitude);
@@ -35,7 +35,7 @@ function showLocation(position) {
 
       
          function gotMedia(mediaStream) {
-           getLocation();
+
            const mediaStreamTrack = mediaStream.getVideoTracks()[0];
            const imageCapture = new ImageCapture(mediaStreamTrack);
            console.log(imageCapture);
@@ -44,13 +44,13 @@ function showLocation(position) {
 
           var player = document.getElementById('player');
 
-  var handleSuccess = function(stream) {
-    player.srcObject = stream;
-  };
+          var handleSuccess = function(stream) {
+            player.srcObject = stream;
+          };
 
 
 
          function getVideo(){
             navigator.mediaDevices.getUserMedia({video: true})
-      .then(handleSuccess);
+            .then(handleSuccess);
          }
