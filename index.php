@@ -140,13 +140,14 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" ng-controller="MarkersEventsAddController">
+      <div class="modal-body">
           <h5>Mapa Local</h5>
           <!--<p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>-->
 
           <hr>
           <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
           <br><br>
+          <hr>
           <input type="file" accept="image/*" capture="camera" id="camera">
 <img id="frame" width="100px">
         </div>
