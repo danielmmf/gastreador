@@ -183,7 +183,7 @@
                 sp: {
                     lat: -23.57,
                     lng: -46.63,
-                    zoom: 14
+                    zoom: 12
                 },
                 events: {}
             });
@@ -210,7 +210,7 @@
             $scope.sp = {
                     lat: latitude,
                     lng: longitude,
-                    zoom: 14
+                    zoom: 12
                 };
             $scope.markers.push({
                     lat: latitude,
@@ -229,7 +229,7 @@
                var options = {};
                navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
             } else {
-               alert("Sorry, browser does not support geolocation!");
+               alert("Desculpe seu navegador nao deixa usar a localizacao!");
             }
          }
 
