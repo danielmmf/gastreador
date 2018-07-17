@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  ng-app="demoapp">
 <head>
 
     <meta charset="utf-8">
@@ -140,11 +140,18 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+<<<<<<< HEAD
       <div class="modal-body">
           <h5>Mapa Local</h5>
           <!--<p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>-->
+=======
+      <div class="modal-body" ng-controller="MarkersEventsAddController">
+          <h5>Popover in a modal</h5>
+          <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+>>>>>>> dd5031f459fc271435b55f5a404deb9a9d8d5e60
           <hr>
           <h5>Tooltips in a modal</h5>
+          <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
           <input type="file" accept="image/*" capture="camera" id="camera">
 <img id="frame" width="100px">
@@ -170,7 +177,72 @@
 
   
 
+<script src="maps/js/angular.min.js"></script>
+    <script src="maps/js/leaflet.js"></script>
+    <script src="maps/js/angular-leaflet-directive.js"></script>
+    <link rel="stylesheet" href="maps/css/leaflet.css" />
+    <script>
+        var app = angular.module("demoapp", ["leaflet-directive"]);
+        app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
 
+            angular.extend($scope, {
+                sp: {
+                    lat: -23.57,
+                    lng: -46.63,
+                    zoom: 16
+                },
+                events: {}
+            });
+
+            $scope.markers = new Array();
+
+            
+
+            /*$scope.$on("leafletDirectiveMap.click", function(event, args){
+                var leafEvent = args.leafletEvent;
+
+                $scope.markers.push({
+                    lat: leafEvent.latlng.lat,
+                    lng: leafEvent.latlng.lng,
+                    message: "My Added Marker"
+                });
+            });*/
+
+
+        function showLocationS(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+           // alert("Latitude : " + latitude + " Longitude: " + longitude);
+            $scope.sp = {
+                    lat: latitude,
+                    lng: longitude,
+                    zoom: 16
+                };
+            $scope.markers.push({
+                    lat: latitude,
+                    lng: longitude,
+                    message: "Clica ai"
+                });
+         }
+
+        
+      
+         function getLocationS() {
+
+            if(navigator.geolocation) {
+               
+               // timeout at 60000 milliseconds (60 seconds)
+               var options = {};
+               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+            } else {
+               alert("Sorry, browser does not support geolocation!");
+            }
+         }
+
+         getLocationS();
+
+        } ]);
+    </script>
 
 
 

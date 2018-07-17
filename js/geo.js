@@ -2,7 +2,7 @@
         function showLocation(position) {
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
-            alert("Latitude : " + latitude + " Longitude: " + longitude);
+          //  alert("Latitude : " + latitude + " Longitude: " + longitude);
          }
 
          function errorHandler(err) {
