@@ -206,7 +206,7 @@
         function showLocationS(position) {
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
-            alert("Latitude : " + latitude + " Longitude: " + longitude);
+           // alert("Latitude : " + latitude + " Longitude: " + longitude);
             $scope.sp = {
                     lat: latitude,
                     lng: longitude,
@@ -226,7 +226,7 @@
             if(navigator.geolocation) {
                
                // timeout at 60000 milliseconds (60 seconds)
-               var options = {timeout:60000};
+               var options = {};
                navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
             } else {
                alert("Sorry, browser does not support geolocation!");
