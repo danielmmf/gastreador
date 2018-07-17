@@ -178,8 +178,7 @@
     <link rel="stylesheet" href="maps/css/leaflet.css" />
     <script>
 
-    $('#exampleModal').on('shown', function(){
-      // code here
+    $('#exampleModal').on('shown.bs.modal', function () {
       alert("abriu");
     });
 
