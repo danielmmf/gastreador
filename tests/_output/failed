@@ -1,0 +1,3 @@
+tests/acceptance/LandingCest.php:tryToTest
+tests/acceptance/LandingCest.php:garantindoTextoDoPrimeiroBotaoTest
+tests/acceptance/LandingCest.php:garantindoTextoDoSegundoBotaoTest
