@@ -181,7 +181,7 @@
 
 
         var app = angular.module("demoapp", ["leaflet-directive"]);
-        app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
+        app.controller('MarkersEventsAddController', [ '$scope','$http', function($scope,$http) {
 
             angular.extend($scope, {
                 sp: {
@@ -198,6 +198,7 @@
             $scope.enviar_denuncia = function(){
               alert("vai enviar sua denuncia");
               alert("Latitude : " + $scope.latitude + " Longitude: " + $scope.longitude);
+
             }
             
 
