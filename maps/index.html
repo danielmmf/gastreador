@@ -39,11 +39,11 @@
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
             alert("Latitude : " + latitude + " Longitude: " + longitude);
-            london: {
+            $scope.london = {
                     lat: latitude,
                     lng: longitude,
                     zoom: 8
-                }
+                };
             $scope.markers.push({
                     lat: latitude,
                     lng: longitude,
