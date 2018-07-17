@@ -238,15 +238,15 @@
                
                // timeout at 60000 milliseconds (60 seconds)
                var options = {};
-               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+               navigator.geolocation.getCurrentPosition(showLocationS, errorHandler, options);
             } else {
                alert("Desculpe seu navegador nao deixa usar a localizacao!");
             }
          }
 
           $('#exampleModal').on('shown.bs.modal', function () {
-      getLocationS();
-    });
+            getLocationS();
+          });
 
         } ]);
     </script>
