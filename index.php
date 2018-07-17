@@ -152,7 +152,7 @@
 <img id="frame" width="100px">
         </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
         <button type="button" class="btn btn-primary" ng-click="enviar_denuncia()">Enviar denuncia!!</button>
       </div>
     </div>
@@ -231,9 +231,9 @@
             $scope.longitude = position.coords.longitude;
            // alert("Latitude : " + latitude + " Longitude: " + longitude);
             $scope.sp = {
-                    lat: latitude,
-                    lng: longitude,
-                    zoom: 12
+                    lat: $scope.latitude,
+                    lng: $scope.longitude,
+                    zoom: 10
                 };
             $scope.markers.push({
                     lat: latitude,
