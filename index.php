@@ -146,6 +146,7 @@
 
           <hr>
           <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
+          <br><br>
           <input type="file" accept="image/*" capture="camera" id="camera">
 <img id="frame" width="100px">
         </div>
