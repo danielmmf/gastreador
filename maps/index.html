@@ -40,8 +40,8 @@
             var longitude = position.coords.longitude;
             alert("Latitude : " + latitude + " Longitude: " + longitude);
             $scope.markers.push({
-                    lat: 51.505,
-                    lng: -0.09,
+                    lat: latitude,
+                    lng: longitude,
                     message: "My Added Marker"
                 });
          }
