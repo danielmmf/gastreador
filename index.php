@@ -198,7 +198,7 @@
             $scope.enviar_denuncia = function(){
               alert("vai enviar sua denuncia");
               alert("Latitude : " + $scope.latitude + " Longitude: " + $scope.longitude);
-              $http.post("pipipi",{"data":1})
+              $http.post("https://chatsocket-2626b.firebaseio.com/denuncias.json",{"data":1,"Latitude":  $scope.latitude , "Longitude": $scope.longitude})
               .then(function(response) {
                       // success
                       alert(response);
