@@ -185,8 +185,8 @@
 
             angular.extend($scope, {
                 sp: {
-                    lat: -23.57,
-                    lng: -46.63,
+                    lat: -23.57555,
+                    lng: -46.63755,
                     zoom: 8
                 },
                 events: {}
